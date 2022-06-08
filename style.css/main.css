@@ -1,0 +1,46 @@
+:root{
+    --vermelho:#CD0000;
+    --preta:black;
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman';
+    color: white;
+    }
+header .container{
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+}
+ 
+header .logo{
+    color:var(--vermelho);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+}       
+
+header nav a{
+    text-decoration:none;
+    color:rgba(128, 128, 128, 0.753);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: aliceblue;
+}
+.filme-principal{
+    background:<img grays.jpeg>;
+    
+    ;
+}
